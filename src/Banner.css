@@ -1,0 +1,45 @@
+.banner {
+  background-color: #410099;
+  display: flex;
+  background-image: url("https://derf9v1xhwwx1.cloudfront.net/image/upload/q_60/cste/cec64279-34f3-444b-860c-150f96e8790b.png");
+  background-position: center right;
+  justify-content: flex-start;
+  min-height: 492px;
+  background-size: contain;
+  padding: 90px;
+  background-repeat: no-repeat;
+}
+
+.bannerMessage {
+  display: block;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.bannerMessage > button {
+  padding: 15px 70px;
+  background-color: #00a5df;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 0;
+  text-transform: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.bannerMessageDescription {
+  color: #fff;
+}
+
+.bannerMessageDescription > h1 {
+  font-size: 62px;
+}
+
+.bannerMessageDescription > p {
+  font-size: 18px;
+}
+
+.bannerImage {
+  width: 50%;
+}

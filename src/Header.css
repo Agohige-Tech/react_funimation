@@ -1,0 +1,117 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.promo {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: #410099;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 15.5px 0;
+}
+.promo > p {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.nav_container {
+  padding: 8.5px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  justify-self: center;
+  margin-right: 50px;
+}
+
+.nav {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  margin-left: 30px;
+  width: 50%;
+}
+
+.dropDown {
+  display: flex;
+  list-style-type: none;
+  overflow: hidden;
+  margin-left: 9px;
+}
+
+.dropDown > li {
+  justify-content: space-between;
+  padding: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-right: 40px;
+}
+
+.dropDown > li > ul {
+  margin-top: 10px;
+  list-style: none;
+  text-align: left;
+  padding-right: 5px;
+  padding-left: 0;
+}
+
+.nav_content {
+  display: none;
+}
+
+.headerRight {
+  padding: 10px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.promoBtn {
+  color: #222222;
+  background-color: #ffc72c;
+  height: 15px;
+  border-radius: 4px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.promoBtn:hover {
+  transform: scale(1.05);
+  transition-duration: 0.3s;
+}
+
+.loginContainer {
+  align-items: center;
+}
+
+.loginContainer > ul {
+  list-style: none;
+  display: flex;
+}
+
+.loginContainer > ul > li > .MuiSvgIcon-root {
+  color: #410099;
+  margin-left: 20px;
+}
+
+.login {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.ul,
+li {
+  color: #410099;
+}
