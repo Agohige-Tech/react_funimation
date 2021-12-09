@@ -14,9 +14,6 @@ function Banner() {
         </div>
         <button>WATCH NOW</button>
       </div>
-      <div className="bannerImage">
-        <img src="" />
-      </div>
     </div>
   );
 }

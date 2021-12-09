@@ -3,22 +3,21 @@
   display: flex;
   background-image: url("https://derf9v1xhwwx1.cloudfront.net/image/upload/q_60/cste/cec64279-34f3-444b-860c-150f96e8790b.png");
   background-position: center right;
-  justify-content: flex-start;
-  min-height: 492px;
   background-size: contain;
-  padding: 90px;
+  min-height: 310px;
+  padding: 90px 300px 90px 90px;
   background-repeat: no-repeat;
 }
 
 .bannerMessage {
-  display: block;
+  display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  width: auto;
+  width: 50%;
 }
 
 .bannerMessage > button {
-  padding: 15px 70px;
+  padding: 0 78px;
   background-color: #00a5df;
   color: #ffffff;
   border-radius: 5px;
@@ -26,6 +25,7 @@
   text-transform: bold;
   font-size: 14px;
   cursor: pointer;
+  height: 50px;
 }
 
 .bannerMessageDescription {
