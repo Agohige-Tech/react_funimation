@@ -11,6 +11,7 @@ function Footer() {
     <div className="footer">
       <div className="footerRow1">
         <div className="footerColumn">
+          {/* Need to add cursor effect when hovering */}
           <ul className="footerNav">
             <li>About Funimation</li>
             <li>Customer Support</li>
@@ -22,6 +23,7 @@ function Footer() {
           </ul>
         </div>
         <div className="footerColumn2">
+          {/* Need to add cursor effect when hovering */}
           <ul className="socialMedia">
             <li>
               <FacebookRoundedIcon />
@@ -58,6 +60,7 @@ function Footer() {
         </div>
       </div>
       <div className="footerRow2">
+        {/* Need to swap out the Sony text for the image */}
         <div className="footerColumn">
           <p>Sony Pictures</p>
         </div>

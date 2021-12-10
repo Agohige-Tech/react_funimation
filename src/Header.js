@@ -19,6 +19,7 @@ function Header() {
               alt="funimation logo"
             />
           </div>
+          {/* Need to complete the actual dropdown of the menu and the hover effects */}
           <ul className="dropDown">
             <li className="stream">
               <p>Stream</p>

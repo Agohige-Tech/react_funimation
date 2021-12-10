@@ -18,6 +18,7 @@ function Shows({ title, fetchURL }) {
 
   return (
     <div className="shows">
+      {/* Need to raise the div just a tad, smaller title text and less padding */}
       <h2>{title}</h2>
       <div className="show_posters">
         {movies.map((movie) => (

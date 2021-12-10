@@ -10,6 +10,8 @@ import Spacer from "./Spacer";
 function App() {
   return (
     <div className="App">
+      {/* Need to get accurate font family vs default 
+      Also need to implement the radial gradient that covers the vh/vw */}
       <Header />
       <Spacer />
       <Banner />

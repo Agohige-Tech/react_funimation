@@ -5,6 +5,7 @@ function Banner() {
   return (
     <div className="banner">
       <div className="bannerMessage">
+        {/* Need to decrease vertical padding b/w text */}
         <div className="bannerMessageDescription">
           <h1>If it's Anime, it's Funimation.</h1>
           <p>
